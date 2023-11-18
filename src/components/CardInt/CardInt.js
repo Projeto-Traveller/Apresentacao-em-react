@@ -26,7 +26,7 @@ const Foto = styled.div`
 	background-size: cover;
 	background-position: center;
 `;
-export function CardInt({ nome, profissao, hobbies, foto}) {
+export function CardInt({ id, nome, profissao, hobbies, foto}) {
 	return (
 		<Card>
 			<Foto src={foto} />
@@ -44,7 +44,7 @@ export function CardInt({ nome, profissao, hobbies, foto}) {
 				</Box>
 			</InformationGrid>
 			<Box>
-				<ButtonLink>Ver Mais</ButtonLink>
+				<ButtonLink to={`/detalhes/${id}`}>Ver Endereço</ButtonLink>
 			</Box>
 		</Card>
         

@@ -17,7 +17,7 @@ export function Present() {
 	return (
 		<Flex>
 			<CardGrid px={[Spaces.ONE, Spaces.TWO]} pb={[Spaces.ONE, Spaces.TWO]}>
-				<CardInt nome="Leonardo Jin Izumi" profissao="Cozinheiro, Sushiman" hobbies="Comer, Dormir e Jogar" foto="../assets/images/photos/jin.jpg" />
+				<CardInt id= "12954776" nome="Leonardo Jin Izumi" profissao="Cozinheiro, Sushiman" hobbies="Comer, Dormir e Jogar" foto="../assets/images/photos/jin.jpg" />
 				<CardInt />
 				<CardInt />
 				<CardInt />

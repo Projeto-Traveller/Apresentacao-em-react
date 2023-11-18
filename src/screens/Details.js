@@ -1,3 +1,9 @@
+import { Card } from "../common-components/Card/Card";
+import { Endereco } from "../components/Endereco/Endereco";
+
 export function Details() {
-	return <div>Hello, tela de detalhes!</div>;
+	return (
+		<Endereco/>
+	)
+
 }
