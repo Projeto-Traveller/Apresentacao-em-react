@@ -16,7 +16,7 @@ const CardGrid = styled(Box)`
 `
 
 export const users = [
- { userId: '1', cep: '12954776' , nome: 'Leonardo Jin Izumi', profissao:'Cozinheiro, Sushiman', hobbies: 'Comer, Dormir e Jogar', foto: "../assets/images/photos/jin.jpg" },
+ { userId: 1, cep: '12954776' , nome: 'Leonardo Jin Izumi', profissao:'Cozinheiro, Sushiman', hobbies: 'Comer, Dormir e Jogar', foto: "../assets/images/photos/jin.jpg" },
 {userId:'2', cep:'01001000', nome:'Ambrozio'}];
 
 export function Present() {
